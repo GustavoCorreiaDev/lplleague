@@ -88,6 +88,7 @@
 
 .categoryCard:hover {
     border-color: black;
+    scale: 1.05;
 }
 
 .mainCardImg {
@@ -97,11 +98,8 @@
 }
 
 .mainCategoryCardTitle {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 6px;
-}   
-
-.mainCategoryCardDescription {
     padding: 6px;
 }
 
