@@ -24,36 +24,42 @@
   right: 0;
   z-index: 1000;
   margin-bottom: 5%;
-}
-.header .logo {
-  text-decoration: none;
-  border-radius: 50%;
-  background-color: white;
-  color: red;
-  padding: 0.5%;
-}
-.header .logo:hover {
-  transform: scale(1.1);
-}
-.header .navbar a {
-  margin: 0 1rem;
-  font-size: 1rem;
-  color: #fff;
-  text-decoration: none;
-}
-.header .navbar a:hover {
-  color: red;
-  border-bottom: 0.1rem solid rgb(142, 26, 26);
-  padding-bottom: 0.2rem;
-}
-.header .icons div {
-  color: #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  margin-left: 1rem;
-}
-.header .icons div:hover {
-  color: red;
+
+  .logo {
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+    color: red;
+    padding: 0.5%;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .navbar a {
+    margin: 0 1rem;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: red;
+      border-bottom: 0.1rem solid rgb(142, 26, 26);
+      padding-bottom: 0.2rem;
+    }
+  }
+
+  .icons div {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 1rem;
+
+    &:hover {
+      color: red;
+    }
+  }
 }
 
 #menu-btn {
@@ -97,13 +103,15 @@
   border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
-}
-.categoryCard:hover {
-  border-color: black;
-  scale: 1.05;
-}
-.categoryCard a {
-  text-decoration: none;
+
+  &:hover {
+    border-color: black;
+    scale: 1.05;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .mainCardImg {
@@ -137,9 +145,10 @@
   border-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
-}
-.sideBarCard:hover {
-  border-color: white;
+
+  &:hover {
+    border-color: white;
+  }
 }
 
 .sideBarCardImg {
@@ -171,9 +180,10 @@
   background-color: white;
   color: red;
   padding: 0.5%;
-}
-.footer .logo:hover {
-  transform: scale(1.1);
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .footerAnco {
@@ -182,14 +192,17 @@
 }
 
 /* media query */
+
 @media (max-width: 768px) {
   .header {
     display: flex;
     justify-content: space-between;
   }
+
   #menu-btn {
     display: inline-block;
   }
+
   .header .navbar {
     position: absolute;
     top: 100%;
@@ -198,9 +211,11 @@
     width: 7rem;
     height: 13.5rem;
   }
+
   .header .navbar.active {
     right: 0;
   }
+
   .header .navbar a {
     color: red;
     background-color: rgb(154, 149, 149);
@@ -210,6 +225,7 @@
     padding: 0.5rem;
     font-size: 1rem;
   }
+
   .gridContainer {
     grid-template-areas: "mainContent" "sideBarContent";
     display: flex;
@@ -217,20 +233,25 @@
     align-items: center;
     gap: 10px;
   }
+
   .sideBarContent {
     min-width: auto;
   }
+
   .footerAnco {
     font-size: 18px;
   }
 }
+
 @media (max-width: 425px) {
   .header {
     justify-content: space-between;
   }
+
   #menu-btn {
     display: inline-block;
   }
+
   .header .navbar {
     position: absolute;
     top: 100%;
@@ -239,9 +260,11 @@
     width: 7rem;
     height: 13.5rem;
   }
+
   .header .navbar.active {
     right: 0;
   }
+
   .header .navbar a {
     color: red;
     background-color: rgb(154, 149, 149);
@@ -251,9 +274,8 @@
     padding: 0.5rem;
     font-size: 1rem;
   }
+
   .footer {
     justify-content: center;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
