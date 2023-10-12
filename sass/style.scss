@@ -12,6 +12,10 @@
   flex-direction: column;
 }
 
+.dark {
+  background-color: black;
+}
+
 .header {
   background: #383838;
   display: flex;
@@ -67,17 +71,31 @@
 }
 
 .sectionTitle {
-  margin-top: 60px;
-  font-size: 26px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  padding-top: 12%;
-}
-
-.sectionDescription {
+  margin-top: 4rem;
   text-align: center;
   color: #383838;
+
+  &:hover {
+    cursor: pointer;
+  }
+
 }
+
+.sectionTitle p {
+    font-family: fantasy;
+    font-size: 3rem;
+}
+
+#change-theme {
+  display: none;
+}
+
+.label-theme {
+  border: 2px solid #383838;
+  padding: 1px 5px 1px 5px;
+  border-radius: 25px
+}
+
 
 .gridContainer {
   display: grid;
@@ -190,6 +208,22 @@
   color: white;
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query */
 

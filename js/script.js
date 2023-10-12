@@ -8,3 +8,10 @@ document.querySelector('#menu-btn').onclick = () =>{
 window.onscroll = () =>{
     navbar.classList.remove('active');
 }
+
+const changeThemeBtn = document.querySelector('#change-theme')
+
+changeThemeBtn.addEventListener('change', function() {
+    let containerDiv = document.querySelector('.container');
+    containerDiv.classList.toggle('dark')
+})
