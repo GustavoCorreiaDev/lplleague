@@ -82,6 +82,10 @@
   display: none;
 }
 
+.dark {
+  color: #fff;
+}
+
 .label-theme {
   border: 2px solid #383838;
   padding: 1px 5px 1px 5px;
@@ -115,10 +119,17 @@
 }
 .categoryCard:hover {
   border-color: black;
-  scale: 1.05;
+  transform: scale(1.05);
 }
 .categoryCard a {
   text-decoration: none;
+}
+
+.darkCategoryCard {
+  background-color: #292929;
+}
+.darkCategoryCard:hover {
+  border-color: #fff;
 }
 
 .mainCardImg {
@@ -132,6 +143,10 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 6px;
   color: black;
+}
+
+.darkMainCategoryCardTitle {
+  color: #fff;
 }
 
 .sideBarContent {
