@@ -3,7 +3,7 @@
 Bem-vindo ao projeto do site da LPL League of Legends! Este é um site dedicado à LPL (Liga de Profissionais de League of Legends), uma das principais ligas competitivas no mundo dos esportes eletrônicos. O site fornece aos fãs informações atualizadas, agendas e insights sobre o mundo da LPL.
 
 ## Recursos
-- **Atualização modo Dark: finalizado
+- **Atualização modo Dark:** finalizado
 
 - **Atualizações de Partidas ao Vivo:** em construção
 
